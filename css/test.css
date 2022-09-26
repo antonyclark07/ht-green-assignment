@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bg800bulbs.jpg");
+    background-size: cover;
+    font-family: system-ui;
+}
+
+.mainsheet {
+    background-color: white;
+    background-image: url("../images/htgreen-hero.jpg");
+    background-repeat: repeat-x;
+    background-position-y: 78px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 9px;
+    padding: 80px 50px 80px 50px;
+    min-width: 100px;
+    max-width: 920px;
+}
+
+#logo {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    bottom: 130px;
+    right: 26px;
+    object-fit: contain;
+}
+
+#navigation {
+    bottom: 76px;
+    left: 440px;
+    position: relative;
+    object-fit: contain;
+    min-width: 10px;
+    text-align: left;
+}
+
+#navigation a {
+    font-size: large;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.header {
+    border-top: 50px;
+}
+
+.junegavin {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(231, 251, 244);
+    border-top: 1px solid rgb(91, 164, 139);
+    border-bottom: 1px solid rgb(91, 164, 139);
+    border-right: 1px solid rgb(91, 164, 139);
+    border-left: 8px solid rgb(91, 164, 139);
+    object-fit: contain;
+}
+
+.junegavin img {
+    padding: 10px;
+    object-fit: contain;
+}
+
+.sandrahill {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(231, 251, 244);
+    border-top: 1px solid rgb(91, 164, 139);
+    border-bottom: 1px solid rgb(91, 164, 139);
+    border-right: 1px solid rgb(91, 164, 139);
+    border-left: 8px solid rgb(91, 164, 139);
+    object-fit: contain;
+}
+
+.sandrahill img {
+    padding: 10px;
+    object-fit: contain;
+}
+
+.roberta {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(231, 251, 244);
+    border-top: 1px solid rgb(91, 164, 139);
+    border-bottom: 1px solid rgb(91, 164, 139);
+    border-right: 1px solid rgb(91, 164, 139);
+    border-left: 8px solid rgb(91, 164, 139);
+    object-fit: contain;
+}
+
+.roberta img {
+    padding: 10px;
+    object-fit: contain;
+}
+
+.footer {
+    position: relative;
+    right: 50px;
+    width: 920px;
+    border: 1px solid rgba(114, 112, 112, 0.793);
+    height: 75px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    text-align: left;
+    padding: 10px;
+    top: 80px;
+    object-fit: contain;
+}

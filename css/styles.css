@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bg800bulbs.jpg");
+    background-size: cover;
+    font-family: system-ui;
+}
+
+
+.mainsheet {
+    background-color: white;
+    background-image: url("../images/htgreen-hero.jpg");
+    background-repeat: repeat-x;
+    background-position-y: 78px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 9px;
+    padding: 80px 50px 80px 50px;
+    min-width: 100px;
+    max-width: 920px;
+}
+
+
+#logo {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    bottom: 130px;
+    right: 26px;
+    object-fit: contain;
+}
+
+#navigation {
+    bottom: 76px;
+    left: 440px;
+    position: relative;
+    object-fit: contain;
+    min-width: 10px;
+    text-align: left;
+}
+
+#navigation a {
+    font-size: large;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.header {
+    border-top: 50px;
+}
+.solar {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+
+.solar img {
+    border-radius: 18px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.geo {
+    display: flex;
+    padding: 10px;
+}
+
+.geo img {
+    border-radius: 18px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.wind {
+    display: flex;
+    padding: 10px;
+}
+
+.wind img {
+    border-radius: 18px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.backtotop {
+    font-size: large;
+    border: 2px solid grey;
+    border-radius: 50px;
+    position: relative;
+    text-align: inherit;
+    width: 100%;
+    padding: 7px 80px;
+    background-color: rgb(221, 226, 231);
+    left: 268px;
+    top: 30px;
+    object-fit: contain;
+}
+
+
+
+.footer {
+    position: relative;
+    right: 50px;
+    width: 920px;
+    border: 1px solid rgba(114, 112, 112, 0.793);
+    height: 75px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    text-align: left;
+    padding: 10px;
+    top: 80px;
+    object-fit: contain;
+}
+
